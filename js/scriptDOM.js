@@ -53,6 +53,25 @@ function ExecutarTestes() {
     li.innerHTML = "TEXTO";
     ul2.appendChild(li);
 
+    // Mudando a cor da letra do elemento p - utilizando a propriedade style
+    document.getElementsByTagName("p").style.color="green";
+
+    // Mudando a cor do formulário - utilizando a propriedade style 
+    document.getElementsById("form").style.backgroundColor="white";
+
+    // Usando o querySelector para pegar a primeira correspondência existente
+    // Quando buscamos id temos que colocar #, quando buscamos classe temos que colocar .
+    document.querySelector("nomeAluno");
+    document.querySelector("p");
+    document.querySelector(".form_textbox");
+
+    // Usando o querySelectorAll para pegar TODOS que atendam ao critério. SEMPRE retorna um
+    // array.Também temos que colocar # para id e . para class
+    document.querySelectorAll("nomeAluno");
+    document.querySelectorAll("p");
+    document.querySelectorAll(".form_textbox");
+
+
    
 
     
